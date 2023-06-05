@@ -14,16 +14,6 @@ pipeline
 	}
       }
      }
-     stage('contBuild')
-     {
-       steps
-       {
-          script
-	  {
-	     cicd.newBuild()
-	  }
-       }
-     }
    }
 }
 
